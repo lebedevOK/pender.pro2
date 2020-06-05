@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "de5858dc-4c71-4bd1-a1c0-bc1bb2f22f59",
+		"name": "tender.pro2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET info.tenderlist_by_company",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.tender.pro/api/_info.tenderlist_by_company.json?_key=1732ede4de680a0c93d81f01d7bac7d1&company_id=210033&open_only=true&max_rows=3",
+					"protocol": "http",
+					"host": [
+						"www",
+						"tender",
+						"pro"
+					],
+					"path": [
+						"api",
+						"_info.tenderlist_by_company.json"
+					],
+					"query": [
+						{
+							"key": "_key",
+							"value": "1732ede4de680a0c93d81f01d7bac7d1"
+						},
+						{
+							"key": "company_id",
+							"value": "210033"
+						},
+						{
+							"key": "open_only",
+							"value": "true"
+						},
+						{
+							"key": "max_rows",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET info.tenderlist_by_set",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.tender.pro/api/_info.tenderlist_by_set.json?_key=1732ede4de680a0c93d81f01d7bac7d1&open_only=true&max_rows=3&set_type_id=1&set_id=210033",
+					"protocol": "http",
+					"host": [
+						"www",
+						"tender",
+						"pro"
+					],
+					"path": [
+						"api",
+						"_info.tenderlist_by_set.json"
+					],
+					"query": [
+						{
+							"key": "_key",
+							"value": "1732ede4de680a0c93d81f01d7bac7d1"
+						},
+						{
+							"key": "open_only",
+							"value": "true"
+						},
+						{
+							"key": "max_rows",
+							"value": "3"
+						},
+						{
+							"key": "set_type_id",
+							"value": "1"
+						},
+						{
+							"key": "set_id",
+							"value": "210033"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET tender",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://www.tender.pro/api/_tender.info.json?_key=1732ede4de680a0c93d81f01d7bac7d1&company_id=210033&id=444438",
+					"protocol": "http",
+					"host": [
+						"www",
+						"tender",
+						"pro"
+					],
+					"path": [
+						"api",
+						"_tender.info.json"
+					],
+					"query": [
+						{
+							"key": "_key",
+							"value": "1732ede4de680a0c93d81f01d7bac7d1"
+						},
+						{
+							"key": "company_id",
+							"value": "210033"
+						},
+						{
+							"key": "id",
+							"value": "444438"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET company_info",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"type": "text",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://www.tender.pro/api/_company.info_public.json?id=210033",
+					"protocol": "http",
+					"host": [
+						"www",
+						"tender",
+						"pro"
+					],
+					"path": [
+						"api",
+						"_company.info_public.json"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "210033"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
